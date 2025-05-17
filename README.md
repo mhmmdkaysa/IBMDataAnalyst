@@ -6,7 +6,7 @@ This project serves as my personal learning journey and documentation while expl
 This repository is meant to:
 
 1. Document my learning process in data analysis
-2. Provide a portfolio of beginner-friendly analysis projects
+2. Provide a portfolio of beginner friendly analysis projects
 3. Share helpful code snippets and notebooks with others
 
 "Data is the new oil, but insight is the new gold."
