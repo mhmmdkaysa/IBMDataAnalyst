@@ -115,3 +115,10 @@ gme_revenue = gme_revenue[gme_revenue['Revenue'] != ""]
 
 # Display the last 5 row of gme_revenue
 gme_revenue.tail()
+
+
+# Plot Tesla's stock graph
+make_graph(tesla_data, tesla_revenue, "Tesla")
+
+# Plot GameStop's stock graph
+make_graph(gme_data, gme_revenue, "GameStop")
