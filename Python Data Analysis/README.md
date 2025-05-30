@@ -1,7 +1,7 @@
 # 📊 Python for Data Analysis
 
 Welcome to the **Python for Data Analysis** repository!  
-This project serves as my personal learning journey and documentation while exploring data analysis using Python. It includes tutorials, hands-on projects, and code samples using popular libraries.
+This project serves as my personal learning journey and documentation while exploring data analysis using Python. It includes hands-on projects and code samples using popular libraries.
 
 This repository is meant to:
 
