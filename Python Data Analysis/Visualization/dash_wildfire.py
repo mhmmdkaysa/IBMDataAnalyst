@@ -8,8 +8,6 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 # import datetime as dt # Tidak digunakan secara langsung
 
-# 1. PERBAIKAN: Impor yang lebih bersih
-
 # Membuat aplikasi
 app = dash.Dash(__name__)
 
@@ -55,7 +53,6 @@ app.layout = html.Div(children=[
             dcc.Dropdown(df.Year.unique(), value=2005, id='year')
         ]),
 
-        # 2. PERBAIKAN: Menghapus style yang error dan merapikan struktur Div
         # Div untuk menampung output plot
         html.Div([
             html.Div([], id='plot1'),
@@ -91,5 +88,4 @@ def reg_year_display(input_region, input_year):
 
 # --- Menjalankan Aplikasi ---
 if __name__ == '__main__':
-    # 3. PERBAIKAN: Menggunakan run_server dengan debug=True untuk pengembangan
     app.run(debug=True)
